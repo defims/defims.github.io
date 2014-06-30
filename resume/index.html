@@ -81,6 +81,7 @@
             }
             section {
                 margin : 2em 0;
+                color : hsla(0, 0%, 20%, 1);
             }
             section section {
                 display : -webkit-box;
@@ -108,7 +109,8 @@
             section:nth-child(3) section time {
                 color : hsla(0, 0%, 75%, 1);
             }
-            section p {
+            section summary
+            ,section p {
                 display : -webkit-box;
                 -webkit-box-pack : start;
                 margin : 0;
@@ -116,7 +118,6 @@
                 padding : 0 .5em;
                 line-height : 2em;
                 vertical-align : top;
-                color : hsla(0, 0%, 20%, 1);
                 font-family : 'Oxygen', sans-serif;
                 width : 61.8%;
                 text-align: justify; 
@@ -135,31 +136,53 @@
                 <h3 lang="en">employment & experience</h3>
                 <section>
                     <time>2014-5</time>
-                    <p>使用mvp模式完成了公司最核心产品积分墙的前端重构，代码精简了20.5%，加载时间减少了30.8%，去除了切换标签耗时.</p>
+                    <detail>
+                        <summary>使用mvp模式完成了公司最核心产品积分墙的前端重构，代码精简了20.5%，加载时间减少了30.8%，去除了切换标签耗时.</summary>
+                    </detail>
                 </section>
                 <section>
-                    <time>2014-1</time>
-                    <p>使用canvas逐帧视频模拟完成了旧版无积分sdk的视频播放兼容．使得52.8%插播媒介可以直接投放视频广告.</p>
+                    <time>2014-2</time>
+                    <detail>
+                        <summary>使用canvas逐帧视频模拟完成了旧版无积分sdk的视频播放兼容．使得52.8%插播媒介可以直接投放视频广告.</summary>
+                    </detail>
                 </section>
                 <section>
-                    <time>2013-11</time>
-                    <p>采用模拟angularjs绑定机制实现了插播的AB测试支持. 成功完成了连续6次，每次持续一周的系列AB测试.</p>
+                    <time>2013-10</time>
+                    <detail>
+                        <summary>采用模拟angularjs绑定机制实现了插播的AB测试支持. 成功完成了连续6次，每次持续一周的系列AB测试.</summary>
+                        <ol>
+                            <li>A:60%黑色背景 vs B:85%黑色背景</li>
+                            <li>A:关闭按钮右上 vs B:关闭按钮左上</li>
+                            <li>A:无中间页插播 vs B:有中间页插播</li>
+                            <li>A:单广告插播 vs B:轮播式插播</li>
+                            <li>A:无下载未安装提示插播 vs B:有下载未安装提示插播</li>
+                            <li>A:单广告插播 vs B:轮播提示插播</li>
+                        </ol>
+                    </detail>
                 </section>
                 <section>
                     <time>2013-9</time>
-                    <p>推荐墙应用模板引擎分离表现和逻辑，支持快速换肤功能，通过3次针对性换肤，效果/展示率提升60%以上.</p>
+                    <detail>
+                        <summary>推荐墙应用模板引擎分离表现和逻辑，支持快速换肤功能，通过3次针对性换肤，效果/展示率提升60%以上.</summary>
+                    </detail>
                 </section>
                 <section>
                     <time>2013-8</time>
-                    <p>通过css3动画实现动感飘窗效果，成功完成行业首创的移动广告形式，依靠飘窗和被飘应用的紧密联系带来了高达15%的转化率．</p>
+                    <detail>
+                        <summary>通过css3动画实现动感飘窗效果，成功完成行业首创的移动广告形式，依靠飘窗和被飘应用的紧密联系带来了高达15%的转化率．</summary>
+                    </detail>
                 </section>
                 <section>
                     <time>2013-7</time>
-                    <p>针对公司流量最大的广告条进行白条闪烁修复，不同屏幕尺寸兼容，防误点设置等优化，提高用户体验.<p>
+                    <detail>
+                        <summary>针对公司流量最大的广告条进行白条闪烁修复，不同屏幕尺寸兼容，防误点设置等优化，提高用户体验.</summary>
+                    </detail>
                 </section>
                 <section>
                     <time>2013-3</time>
-                    <p>使用flash制作方正网页设计大赛冠军作品founder</p>
+                    <detail>
+                        <summary>使用flash制作方正网页设计大赛冠军作品founder</summary>
+                    </detail>
                 </section>
             </section>
             <section>
