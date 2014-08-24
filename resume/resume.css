@@ -1,0 +1,109 @@
+html{
+    display : -webkit-box;
+    -webkit-box-orient : vertical;
+    margin : 0;
+    padding : 2em;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    width : 50em;
+    overflow-x : hidden;
+    position : absolute;
+    left : 0;
+    right : 0;
+    margin : auto;
+}
+head {
+    display : -webkit-box;
+    -webkit-box-orient : vertical;
+    -webkit-box-pack : center;
+    -webkit-box-align : center;
+    font-size : .8em;
+    margin : 1em;
+}
+head title {
+}
+head meta[name] {
+    display : -webkit-box;
+    color : hsla(0, 0% ,60% ,1);
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing : .15em;
+}
+head meta:after {
+    content : attr(content);
+}
+head meta[name=name] {
+    text-align : right;
+    margin-right : -.15em;
+    font-size : 7em;
+    color : black;
+    text-transform : uppercase;
+    font-weight : bold;
+}
+head meta[name=email] {
+    
+}
+head meta[name=viewport] {
+    display : none;
+}
+body {
+    margin : 0;
+    padding : 0;
+}
+h3 {
+    color : hsla(0,0%,40%,1);
+}
+h3[lang=zh-hans] {
+    margin : .5em 0;
+}
+h3[lang=en] {
+    font-family: 'Oxygen', sans-serif;
+    font-size : 1em;
+    margin : .25em 0 -5.6em 0;
+    font-weight : normal;
+    color : hsla(0,0%,70%,1);
+}
+section {
+    margin : 2em 0;
+}
+section section {
+    display : -webkit-box;
+    position : relative;
+}
+section time
+,section span{
+    display : -webkit-box;
+    -webkit-box-pack : end;
+    -webkit-box-align : start;
+    -webkit-box-sizing : border-box;
+    padding : 0 .5em;
+    width : 38.2%;
+    font-weight : bold;
+    letter-spacing : .2em;
+    font-family : 'Oxygen', sans-serif;
+    line-height : 2em;
+}
+section:nth-child(1) section time {
+    color : hsla(197, 100%, 61%, 1);
+}
+section:nth-child(2) section time {
+    color : hsla(314, 100%, 61%, 1);
+}
+section:nth-child(3) section time {
+    color : hsla(0, 0%, 75%, 1);
+}
+section p {
+    display : -webkit-box;
+    -webkit-box-pack : start;
+    margin : 0;
+    -webkit-box-sizing : border-box;
+    padding : 0 .5em;
+    line-height : 2em;
+    vertical-align : top;
+    color : hsla(0, 0%, 20%, 1);
+    font-family : 'Oxygen', sans-serif;
+    width : 61.8%;
+    text-align: justify; 
+    text-justify: inter-ideograph;/* IE */ 
+    -moz-text-align-last: justify;/* FF */ 
+    -ms-text-align-last: justify;/* IE 8+ */ 
+    text-align-last: justify;/* IE5.5+ */ 
+}
