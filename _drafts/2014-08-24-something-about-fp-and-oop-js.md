@@ -222,3 +222,5 @@ script c:
 * [函数型 VS 面向对象型的javascript程序设计](http://wenku.baidu.com/view/ed1660d726fff705cc170a3f.html)
 * [why functional programming](https://www.byvoid.com/blog/why-functional-programming)
 * [为什么函数式编程没有](http://www.infoq.com/cn/news/2009/03/fp-doesnt-catchon)
+* [javascript mapreduce](http://jcla1.com/blog/javascript-mapreduce/)
+* [javascript mapreduce](http://www.diguage.com/archives/75.html)
